@@ -9,5 +9,5 @@
 .externalNativeBuild
 /keystore.properties
 
-app/google-services\.json
+
 /.idea/vcs.xml
