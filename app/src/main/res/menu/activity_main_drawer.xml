@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_my_groups"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="My Groups" />
+
+        <item
+            android:id="@+id/nav_join_group"
+            android:icon="@drawable/ic_add_circle_black_24dp"
+            android:title="Join Group" />
+        <item
+            android:id="@+id/nav_notifications"
+            android:icon="@drawable/ic_notifications_black_24dp"
+            android:title="Notifications" />
+        <item
+            android:id="@+id/nav_group_create"
+            android:icon="@drawable/ic_group_add_black_24dp"
+            android:title="Create Group" />
+
+    </group>
+
+    <item android:title="Others">
+        <menu>
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings_black_24dp"
+                android:title="Settings" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_description_black_24dp"
+                android:title="About" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:icon="@drawable/ic_language_black_24dp"
+                android:title="Privacy Policy" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help" />
+        </menu>
+    </item>
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile" />
+
+
+            <item
+                android:id="@+id/sign_out"
+                android:icon="@drawable/ic_exit"
+                android:title="Sign Out" />
+        </menu>
+    </item>
+
+</menu>
